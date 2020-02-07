@@ -24,8 +24,7 @@ public class World {
 			setTreasureYCoordinate(treasure.getyCoordinate());
 			System.out.println("Grey foggy clouds float oppressively close to you, \r\n" + 
 						"reflected in the murky grey water which reaches up your shins.\r\n" + 
-						"Some black plants barely poke out of the shallow water.\r\n" + 
-						"Try \"north\", \"south\", \"east\", or \"west\"\r\n" + 
+						"Some black plants barely poke out of the shallow water.\r\n" +  
 						"You notice a small watch-like device in your left hand.  \r\n" + 
 						"It has hands like a watch, but the hands don't seem to tell time.\r\n" + 
 						"Press n to go north, w to go west, s to go south or e to go east.");
