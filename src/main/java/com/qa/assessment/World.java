@@ -59,15 +59,18 @@ public class World {
 	}
 	
 	public String getPlayerDirectionForNextMove() {
+		String playerDirection = "";
 		System.out.println("Please enter the direction in which you want to go: ");
-		if (Utils.input().equalsIgnoreCase("n") || Utils.input().equalsIgnoreCase("w") ||
-				Utils.input().equalsIgnoreCase("e") || Utils.input().equalsIgnoreCase("s")) {
-			String playerDirection = Utils.input().toLowerCase();
-			System.out.println(playerDirection);
-			return playerDirection;
-		} else {
-			throw new NoDirectionEnteredException();
-		}
+//		if (Utils.input().equalsIgnoreCase("n") || Utils.input().equalsIgnoreCase("w") ||
+//				Utils.input().equalsIgnoreCase("e") || Utils.input().equalsIgnoreCase("s")) {
+//			playerDirection = Utils.input().toLowerCase();
+//			System.out.println(playerDirection);
+//		} else {
+//			throw new NoDirectionEnteredException();
+//		}
+//		}
+		playerDirection = Utils.input();
+		return playerDirection;
 		
 	}
 	
